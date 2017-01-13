@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nirmit.ostapp.Login">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email id:"
+            android:textSize="20dp"
+            android:id="@+id/ename"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="50dp"/>
+        <EditText
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="135dp"
+            android:id="@+id/email"
+            android:hint="Enter your email id" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="20dp"
+            android:id="@+id/pname"
+            android:layout_marginTop="175dp"
+            android:layout_marginLeft="50dp"/>
+        <EditText
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="155dp"
+            android:hint="Enter your password"
+            android:id="@+id/pass"/>
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:id="@+id/signin"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="260dp"
+            android:onClick="signIn"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:id="@+id/next"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="260dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOG IN"
+            android:id="@+id/login"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="325dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOG OUT"
+            android:id="@+id/logout"
+            android:layout_marginTop="325dp"
+            android:layout_marginLeft="260dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

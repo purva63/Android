@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="440dp"
+    tools:context="com.example.nirmit.ostapp.Signup">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email id:"
+        android:textSize="20dp"
+        android:id="@+id/ename"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"/>
+    <EditText
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="135dp"
+        android:id="@+id/email"
+        android:hint="Enter your email id" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="20dp"
+        android:id="@+id/pname"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="50dp"/>
+    <EditText
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="155dp"
+        android:hint="Enter your password"
+        android:id="@+id/pass"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20dp"
+            android:id="@+id/name1"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="50dp"/>
+        <EditText
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="155dp"
+            android:hint="Enter your name"
+            android:id="@+id/name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact No."
+            android:textSize="20dp"
+            android:id="@+id/con"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="50dp"/>
+        <EditText
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="155dp"
+            android:hint="Enter your contact number"
+            android:id="@+id/contact"/>
+        <RadioGroup
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/artist"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="@string/artist"
+                android:checked="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+
+            <RadioButton
+                android:id="@+id/manager"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="@string/manager"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+            <RadioButton
+                android:id="@+id/restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="@string/restaurant"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="20dp"
+            android:id="@+id/add"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="50dp"/>
+        <EditText
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="155dp"
+            android:hint="Enter your address"
+            android:id="@+id/address"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schedule"
+            android:textSize="20dp"
+            android:id="@+id/sc"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="50dp"/>
+        <EditText
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="155dp"
+            android:hint="Enter your schedule"
+            android:id="@+id/schedule"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:id="@+id/next"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="500dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:id="@+id/reg"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="500dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOG OUT"
+            android:id="@+id/logout"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="140dp"/>
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

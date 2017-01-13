@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "748846307797",
+    "firebase_url": "https://ost-app.firebaseio.com",
+    "project_id": "ost-app",
+    "storage_bucket": "ost-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748846307797:android:239b233f4fec35a0",
+        "android_client_info": {
+          "package_name": "com.example.nirmit.ostapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748846307797-2peef0fr326seo3n7i4mj9dab6lv0a4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nirmit.ostapp",
+            "certificate_hash": "4EBA83F6CD0D6582871D22932E8E44AF649DA25A"
+          }
+        },
+        {
+          "client_id": "748846307797-ci7ajimsjlab2ajsuc049njqs8mmnpof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsIVxCWm0sz6sMleUezzNw5xpCTsnZfK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748846307797-ci7ajimsjlab2ajsuc049njqs8mmnpof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
